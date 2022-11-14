@@ -1,0 +1,20 @@
+﻿<Window x:Class="MetodykiZarzadzaniaIT.Project.Kalkulator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MetodykiZarzadzaniaIT.Project"
+        mc:Ignorable="d"
+        Title="Kalkulator" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="KryptoZListy" HorizontalAlignment="Left" Margin="35,133,0,0" VerticalAlignment="Top" Width="161" Height="41">
+            <ComboBoxItem Content="Bitcoin"/>
+            <ComboBoxItem Content="Etherium"/>
+            <ComboBoxItem Content="UEKatowice Test Coin"/>
+        </ComboBox>
+        <TextBox x:Name="IloscDoWpisania" HorizontalAlignment="Left" Margin="251,133,0,0" TextWrapping="Wrap" Text="Podaj ilość" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="180" Height="41"/>
+        <Label x:Name="Wynik" Content="Label" HorizontalAlignment="Left" Margin="477,133,0,0" VerticalAlignment="Top" Height="41" Width="176"/>
+        <Button Content="Oblicz" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Height="38" Width="116" Click="Button_Click"/>
+
+    </Grid>
+</Window>

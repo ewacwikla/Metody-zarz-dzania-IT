@@ -24,5 +24,17 @@ namespace MetodykiZarzadzaniaIT.Project
         {
             InitializeComponent();
         }
+
+        private void Kalkulator_Click(object sender, RoutedEventArgs e)
+        {
+            var response = new Kalkulator();
+            response.Show();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var response = new Portfel();
+            response.Show();
+        }
     }
 }

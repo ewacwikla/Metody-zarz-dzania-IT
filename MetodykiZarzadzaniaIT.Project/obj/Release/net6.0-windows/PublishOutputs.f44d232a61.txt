@@ -1,0 +1,5 @@
+C:\Users\rafal\source\repos\MetodykiZarzadzaniaIT.Project\MetodykiZarzadzaniaIT.Project\bin\Release\net6.0-windows\publish\MetodykiZarzadzaniaIT.Project.exe
+C:\Users\rafal\source\repos\MetodykiZarzadzaniaIT.Project\MetodykiZarzadzaniaIT.Project\bin\Release\net6.0-windows\publish\MetodykiZarzadzaniaIT.Project.dll
+C:\Users\rafal\source\repos\MetodykiZarzadzaniaIT.Project\MetodykiZarzadzaniaIT.Project\bin\Release\net6.0-windows\publish\MetodykiZarzadzaniaIT.Project.deps.json
+C:\Users\rafal\source\repos\MetodykiZarzadzaniaIT.Project\MetodykiZarzadzaniaIT.Project\bin\Release\net6.0-windows\publish\MetodykiZarzadzaniaIT.Project.runtimeconfig.json
+C:\Users\rafal\source\repos\MetodykiZarzadzaniaIT.Project\MetodykiZarzadzaniaIT.Project\bin\Release\net6.0-windows\publish\MetodykiZarzadzaniaIT.Project.pdb
