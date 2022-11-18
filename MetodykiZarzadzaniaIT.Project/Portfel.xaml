@@ -7,15 +7,21 @@
         mc:Ignorable="d"
         Title="Portfel" Height="450" Width="800">
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="83,72,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="83,103,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="83,129,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="193,72,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="193,103,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="193,129,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="289,72,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="289,103,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="289,129,0,0" VerticalAlignment="Top" Width="91"/>
-
+        <Label Content="Nazwa kryptowaluty" HorizontalAlignment="Left" Margin="83,72,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="BTC" HorizontalAlignment="Left" Margin="83,103,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Eth" HorizontalAlignment="Left" Margin="83,129,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Cena kryptowaluty" HorizontalAlignment="Left" Margin="193,72,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Name="firstValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,103,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Name="secoundValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,129,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Ilość kryptowaluty" HorizontalAlignment="Left" Margin="289,72,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="0.03234" HorizontalAlignment="Left" Margin="289,103,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="0.421" HorizontalAlignment="Left" Margin="289,129,0,0" VerticalAlignment="Top" Width="91"/>
+        <Button Name="refreshButton" Content="please refresh" HorizontalAlignment="Left" Margin="398,72,0,0" VerticalAlignment="Top" Width="50" Click="refreshButton_Click" ></Button>
+        <Label Content="UEcoin" HorizontalAlignment="Left" Margin="83,160,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="thirdValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,160,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="0.421" HorizontalAlignment="Left" Margin="289,160,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="NextCoin" HorizontalAlignment="Left" Margin="83,191,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label x:Name="fourValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,191,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="0.421" HorizontalAlignment="Left" Margin="289,191,0,0" VerticalAlignment="Top" Width="91"/>
     </Grid>
 </Window>

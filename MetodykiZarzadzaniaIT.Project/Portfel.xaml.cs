@@ -22,6 +22,34 @@ namespace MetodykiZarzadzaniaIT.Project
         public Portfel()
         {
             InitializeComponent();
+            OnLoad();
+        }
+
+        private void refreshButton_Click(object sender, RoutedEventArgs e)
+        {
+            var randVal = (RandomCoinValue.ThirdCoin()).ToString() + " $";
+            firstValue.Content = (RandomCoinValue.ThirdCoin() * 8).ToString() + " $";
+            secoundValue.Content = (RandomCoinValue.ThirdCoin() * 7).ToString() + " $";
+            thirdValue.Content = MyExtensions.ToString(RandomCoinValue.FirstCoin()) + " $";
+            fourValue.Content = MyExtensions.ToString(RandomCoinValue.SecondCoin()) + " $";
+        }
+
+        private void OnLoad()
+        {
+            var randVal = (RandomCoinValue.ThirdCoin()).ToString() + " $";
+            firstValue.Content = (RandomCoinValue.ThirdCoin() * 8).ToString() + " $";
+            secoundValue.Content = (RandomCoinValue.ThirdCoin() * 7).ToString() + " $";
+            thirdValue.Content = MyExtensions.ToString(RandomCoinValue.FirstCoin()) + " $";
+            fourValue.Content = MyExtensions.ToString(RandomCoinValue.SecondCoin()) + " $";
+        }
+        
+    }
+
+    public static class MyExtensions
+    {
+        public static string ToString(this object obj)
+        {
+            return obj.ToString();
         }
     }
 }

@@ -13,7 +13,7 @@
             <ComboBoxItem Content="UEKatowice Test Coin"/>
         </ComboBox>
         <TextBox x:Name="IloscDoWpisania" HorizontalAlignment="Left" Margin="251,133,0,0" TextWrapping="Wrap" Text="Podaj ilość" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="180" Height="41"/>
-        <Label x:Name="Wynik" Content="Label" HorizontalAlignment="Left" Margin="477,133,0,0" VerticalAlignment="Top" Height="41" Width="176"/>
+        <Label x:Name="Wynik" Content="Wynik" HorizontalAlignment="Left" Margin="477,133,0,0" VerticalAlignment="Top" Height="41" Width="176"/>
         <Button Content="Oblicz" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Height="38" Width="116" Click="Button_Click"/>
 
     </Grid>
