@@ -6,15 +6,23 @@
         xmlns:local="clr-namespace:MetodykiZarzadzaniaIT.Project"
         mc:Ignorable="d"
         Title="Kalkulator" Height="450" Width="800">
-    <Grid>
-        <ComboBox x:Name="KryptoZListy" HorizontalAlignment="Left" Margin="35,133,0,0" VerticalAlignment="Top" Width="161" Height="41">
-            <ComboBoxItem Content="Bitcoin"/>
-            <ComboBoxItem Content="Etherium"/>
-            <ComboBoxItem Content="UEKatowice Test Coin"/>
+    <Grid Background="AliceBlue">
+        <ComboBox x:Name="KryptoZListy" HorizontalAlignment="Left" Margin="35,133,0,0" VerticalAlignment="Top" Width="161" Height="41" BorderBrush="#FFA01CA1">
+            <ComboBox.OpacityMask >
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFA63CCC" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.OpacityMask>
+            <ComboBoxItem Background="DeepPink" Content="Bitcoin"/>
+            <ComboBoxItem Background="DeepPink" Content="Etherium"/>
+            <ComboBoxItem Background="DeepPink" Content="UEKatowice Test Coin"/>
         </ComboBox>
         <TextBox x:Name="IloscDoWpisania" HorizontalAlignment="Left" Margin="251,133,0,0" TextWrapping="Wrap" Text="Podaj ilość" PreviewTextInput="NumberValidationTextBox" VerticalAlignment="Top" Width="180" Height="41"/>
-        <Label x:Name="Wynik" Content="Wynik" HorizontalAlignment="Left" Margin="477,133,0,0" VerticalAlignment="Top" Height="41" Width="176"/>
-        <Button Content="Oblicz" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Height="38" Width="116" Click="Button_Click"/>
+        <Label x:Name="Wynik" Content="Wynik" HorizontalAlignment="Left" Margin="469,136,0,0" VerticalAlignment="Top" Width="180" Height="41"/>
+        <Button Background="DeepPink" Content="Oblicz" HorizontalAlignment="Center" Margin="0,237,0,0" VerticalAlignment="Top" Height="38" Width="116" Click="Button_Click"/>
+        <Label Content="Ilość
+               " HorizontalAlignment="Left" Margin="251,96,0,0" VerticalAlignment="Top" Height="42" Width="180"/>
 
     </Grid>
 </Window>

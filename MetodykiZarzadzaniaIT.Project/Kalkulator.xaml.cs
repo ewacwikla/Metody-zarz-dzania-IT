@@ -23,7 +23,7 @@ namespace MetodykiZarzadzaniaIT.Project
         public Kalkulator()
         {
             InitializeComponent();
-            
+            KryptoZListy.SelectedItem = KryptoZListy.Items[0];
         }
 
         private decimal ActualPrice = 1;

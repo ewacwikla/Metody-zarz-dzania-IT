@@ -6,22 +6,37 @@
         xmlns:local="clr-namespace:MetodykiZarzadzaniaIT.Project"
         mc:Ignorable="d"
         Title="Portfel" Height="450" Width="800">
-    <Grid>
-        <Label Content="Nazwa kryptowaluty" HorizontalAlignment="Left" Margin="83,72,0,0" VerticalAlignment="Top" Width="91"/>
+    <Grid Background="AliceBlue">
+        <Label Content="Nazwa kryptowaluty" HorizontalAlignment="Left" Margin="83,69,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Content="BTC" HorizontalAlignment="Left" Margin="83,103,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Content="Eth" HorizontalAlignment="Left" Margin="83,129,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Cena kryptowaluty" HorizontalAlignment="Left" Margin="193,72,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Cena kryptowaluty" HorizontalAlignment="Left" Margin="193,69,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Name="firstValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,103,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Name="secoundValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,129,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="Ilość kryptowaluty" HorizontalAlignment="Left" Margin="289,72,0,0" VerticalAlignment="Top" Width="110"/>
+        <Label Content="Ilość kryptowaluty" HorizontalAlignment="Left" Margin="290,69,0,0" VerticalAlignment="Top" Width="110"/>
         <Label Content="0.03234" HorizontalAlignment="Left" Margin="289,103,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Content="0.421" HorizontalAlignment="Left" Margin="289,129,0,0" VerticalAlignment="Top" Width="91"/>
-        <Button Name="refreshButton" Content="please refresh" HorizontalAlignment="Left" Margin="398,72,0,0" VerticalAlignment="Top" Width="50" Click="refreshButton_Click" ></Button>
+        <Button Background="DeepPink" Name="refreshButton" Content="please refresh" HorizontalAlignment="Left" Margin="534,25,0,0" VerticalAlignment="Top" Width="89" Click="refreshButton_Click" ></Button>
         <Label Content="UEcoin" HorizontalAlignment="Left" Margin="83,160,0,0" VerticalAlignment="Top" Width="91"/>
         <Label x:Name="thirdValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,160,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="0.421" HorizontalAlignment="Left" Margin="289,160,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="1.65433" HorizontalAlignment="Left" Margin="289,160,0,0" VerticalAlignment="Top" Width="91"/>
         <Label Content="NextCoin" HorizontalAlignment="Left" Margin="83,191,0,0" VerticalAlignment="Top" Width="91"/>
         <Label x:Name="fourValue" Content="please refresh" HorizontalAlignment="Left" Margin="193,191,0,0" VerticalAlignment="Top" Width="91"/>
-        <Label Content="0.421" HorizontalAlignment="Left" Margin="289,191,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="33321.891" HorizontalAlignment="Left" Margin="289,191,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="400,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="400,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="400,160,0,0" VerticalAlignment="Top"/>
+        <Label Content="$" HorizontalAlignment="Left" Margin="400,191,0,0" VerticalAlignment="Top"/>
+        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="467,91,0,0" VerticalAlignment="Top" Width="3"/>
+        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="284,91,0,0" VerticalAlignment="Top" Width="3"/>
+        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="190,91,0,0" VerticalAlignment="Top" Width="3"/>
+        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="392,91,0,0" VerticalAlignment="Top" Width="3"/>
+        <Label Content="Tygodniowa&#xD;&#xA;     zmiana" HorizontalAlignment="Left" Margin="467,64,0,0" VerticalAlignment="Top" Width="70" Height="35" FontSize="9"/>
+        <Image Margin="493,107,282,309" Source="/Assets/Down.png" Stretch="Fill"/>
+        <Image Margin="493,164,282,252" Source="/Assets/Down.png" Stretch="Fill"/>
+        <Image Margin="493,133,282,283"
+               Source="/Assets/Up.png" Stretch="Fill"/>
+        <Image Margin="493,195,282,221"
+            Source="/Assets/Up.png" Stretch="Fill"/>
     </Grid>
 </Window>
