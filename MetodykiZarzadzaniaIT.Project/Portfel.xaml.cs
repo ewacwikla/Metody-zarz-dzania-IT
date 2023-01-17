@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,11 +28,16 @@ namespace MetodykiZarzadzaniaIT.Project
 
         private void refreshButton_Click(object sender, RoutedEventArgs e)
         {
-            var randVal = (RandomCoinValue.ThirdCoin()).ToString() + " $";
-            firstValue.Content = (RandomCoinValue.ThirdCoin() * 8).ToString() + " $";
-            secoundValue.Content = (RandomCoinValue.ThirdCoin() * 7).ToString() + " $";
+            var randVal = (RandomCoinValue.ThirdCoin()) + " $";
+            firstValue.Content = (RandomCoinValue.ThirdCoin() * 8) + " $";
+            secoundValue.Content = (RandomCoinValue.ThirdCoin() * 7) + " $";
             thirdValue.Content = MyExtensions.ToString(RandomCoinValue.FirstCoin()) + " $";
             fourValue.Content = MyExtensions.ToString(RandomCoinValue.SecondCoin()) + " $";
+
+            CountBtc.Content = long.Parse(firstValue.Content.ToString().Remove(firstValue.Content.ToString().Length - 1)) * 0.03234;
+            CountEth.Content = long.Parse(secoundValue.Content.ToString().Remove(secoundValue.Content.ToString().Length - 1)) * 0.421;
+            CountNextCoin.Content = long.Parse(fourValue.Content.ToString().Remove(fourValue.Content.ToString().Length - 1)) * 33321.891;
+            CountUECoint.Content = long.Parse(thirdValue.Content.ToString().Remove(thirdValue.Content.ToString().Length - 1)) * 1.65433;
         }
 
         private void OnLoad()
@@ -41,6 +47,11 @@ namespace MetodykiZarzadzaniaIT.Project
             secoundValue.Content = (RandomCoinValue.ThirdCoin() * 7).ToString() + " $";
             thirdValue.Content = MyExtensions.ToString(RandomCoinValue.FirstCoin()) + " $";
             fourValue.Content = MyExtensions.ToString(RandomCoinValue.SecondCoin()) + " $";
+
+            CountBtc.Content = long.Parse(firstValue.Content.ToString().Remove(firstValue.Content.ToString().Length -1)) * 0.03234;
+            CountEth.Content = long.Parse(secoundValue.Content.ToString().Remove(secoundValue.Content.ToString().Length - 1)) * 0.421;
+            CountNextCoin.Content = long.Parse(fourValue.Content.ToString().Remove(fourValue.Content.ToString().Length - 1)) * 33321.891;
+            CountUECoint.Content = long.Parse(thirdValue.Content.ToString().Remove(thirdValue.Content.ToString().Length - 1)) * 1.65433;
         }
         
     }

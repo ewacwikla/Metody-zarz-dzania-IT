@@ -27,16 +27,60 @@
         <Label Content="$" HorizontalAlignment="Left" Margin="400,129,0,0" VerticalAlignment="Top"/>
         <Label Content="$" HorizontalAlignment="Left" Margin="400,160,0,0" VerticalAlignment="Top"/>
         <Label Content="$" HorizontalAlignment="Left" Margin="400,191,0,0" VerticalAlignment="Top"/>
-        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="467,91,0,0" VerticalAlignment="Top" Width="3"/>
+        <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="476,91,0,0" VerticalAlignment="Top" Width="3"/>
         <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="284,91,0,0" VerticalAlignment="Top" Width="3"/>
         <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="190,91,0,0" VerticalAlignment="Top" Width="3"/>
         <GridSplitter Background="CadetBlue" HorizontalAlignment="Left" Height="135" Margin="392,91,0,0" VerticalAlignment="Top" Width="3"/>
         <Label Content="Tygodniowa&#xD;&#xA;     zmiana" HorizontalAlignment="Left" Margin="467,64,0,0" VerticalAlignment="Top" Width="70" Height="35" FontSize="9"/>
-        <Image Margin="493,107,282,309" Source="/Assets/Down.png" Stretch="Fill"/>
-        <Image Margin="493,164,282,252" Source="/Assets/Down.png" Stretch="Fill"/>
-        <Image Margin="493,133,282,283"
-               Source="/Assets/Up.png" Stretch="Fill"/>
-        <Image Margin="493,195,282,221"
-            Source="/Assets/Up.png" Stretch="Fill"/>
+        <!--<Image Margin="493,107,282,309" Name="firstDown" Source="Down.png" Stretch="Fill"/>
+        <Image Margin="493,164,282,252" Name="secondDown" Source="Down.png" Stretch="Fill"/>
+        <Image Margin="493,133,282,283" Name="firstUp"
+               Source="Up.png" Stretch="Fill"/>
+        <Image Margin="493,195,282,221" Name="secondUp"
+            Source="Up.png" Stretch="Fill"/>-->
+        <Label Content="V" Name="CountNextCoin" HorizontalAlignment="Left" Margin="408,191,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="V" Name="CountUECoint" HorizontalAlignment="Left" Margin="408,160,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="V" Name="CountEth" HorizontalAlignment="Left" Margin="408,134,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="V" Name="CountBtc" HorizontalAlignment="Left" Margin="408,103,0,0" VerticalAlignment="Top" Width="54"/>
+        <Label Content="➔" HorizontalAlignment="Left" Margin="479,99,0,0" VerticalAlignment="Top" Width="30" Height="28" FontSize="15" RenderTransformOrigin="0.5,0.5" Foreground="#FF20CE23">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-33.495"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="➔" HorizontalAlignment="Left" Margin="479,128,0,0" VerticalAlignment="Top" Width="33" Height="32" FontSize="15" RenderTransformOrigin="0.5,0.5" Foreground="#FF20CE23">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-33.495"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="➔" HorizontalAlignment="Left" Margin="474,161,0,0" VerticalAlignment="Top" Width="34" Height="30" FontSize="15" RenderTransformOrigin="0.506,0.64" Foreground="#FFDC1717">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="41.431"/>
+                    <TranslateTransform X="1.369" Y="-0.484"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="➔" HorizontalAlignment="Left" Margin="480,187,0,0" VerticalAlignment="Top" Width="29" Height="37" FontSize="15" RenderTransformOrigin="0.5,0.5" Foreground="#FF20CE23">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-33.495"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
     </Grid>
 </Window>
